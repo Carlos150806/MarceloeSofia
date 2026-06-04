@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Nossa História</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts-container" id="hearts"></div>
+
+<!-- PERFIS -->
+<div id="profile-page">
+  <div class="glow-orb"></div>
+  <div class="profile-logo" id="logo-profile"></div>
+  <h1 class="profile-title">Quem está assistindo?</h1>
+  <div class="profiles">
+    <button class="profile-btn" onclick="enterProfile(0)">
+      <div class="profile-img-wrap" id="pfp-0"><div class="profile-placeholder" id="pfp-ph-0"></div></div>
+      <span class="profile-name" id="pfp-n-0"></span>
+    </button>
+    <button class="profile-btn" onclick="enterProfile(1)">
+      <div class="profile-img-wrap" id="pfp-1"><div class="profile-placeholder" id="pfp-ph-1"></div></div>
+      <span class="profile-name" id="pfp-n-1"></span>
+    </button>
+  </div>
+  <p class="profile-subtitle">Uma história de amor · Original</p>
+</div>
+
+<!-- PÁGINA PRINCIPAL -->
+<div id="browse-page">
+  <header id="header">
+    <div class="logo" id="logo-browse" onclick="goBack()"></div>
+    <button class="back-btn" onclick="goBack()">← <span id="avatar-wrap"></span> <span id="avatar-name"></span></button>
+  </header>
+
+  <section class="hero">
+    <img id="hero-img" src="" alt="" class="hero-img">
+    <div class="hero-grad1"></div><div class="hero-grad2"></div>
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge"></div>
+      <h1 class="hero-title" id="hero-titulo"></h1>
+      <p class="hero-subtitle" id="hero-sub"></p>
+      <p class="hero-desc" id="hero-desc"></p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="openModal(0)">▶ Assistir</button>
+        <button class="btn-secondary" onclick="document.getElementById('timeline').scrollIntoView({behavior:'smooth'})">ℹ Mais Informações</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="counter-wrap">
+    <div class="counter-inner">
+      <div class="counter-glow"></div>
+      <div class="counter-box">
+        <p class="counter-label">✦ Juntos há ✦</p>
+        <p class="counter-number" id="days-counter">0</p>
+        <p class="counter-sub">dias de amor</p>
+        <div class="counter-divider"><div class="cdl"></div><span class="counter-heart">♥</span><div class="cdl r"></div></div>
+        <p class="counter-date" id="counter-date-lbl"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousels">
+    <div class="carousel-section">
+      <h2 class="carousel-title">Momentos em Alta</h2>
+      <div class="carousel-wrap">
+        <button class="carousel-nav prev" onclick="scrollCarousel(-1)">&#8249;</button>
+        <div class="carousel-track" id="carousel-main"></div>
+        <button class="carousel-nav next" onclick="scrollCarousel(1)">&#8250;</button>
+      </div>
+    </div>
+  </div>
+
+  <section id="timeline" class="timeline-section">
+    <h2 class="timeline-heading">A jornada de nós dois</h2>
+    <div class="timeline-items" id="timeline-items"><div class="timeline-line"></div></div>
+  </section>
+
+  <section class="final-section">
+    <div class="final-glow"></div>
+    <div style="position:relative">
+      <div class="final-heart">♥</div>
+      <p class="final-quote" id="final-quote"></p>
+      <p class="final-sub" id="final-sub"></p>
+    </div>
+  </section>
+  <footer id="footer-txt"></footer>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal" onclick="handleModalClick(event)">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-media" id="modal-media">
+      <div class="modal-grad"></div>
+      <div class="modal-controls" id="modal-ctrl-bar">
+        <div class="modal-bar"><div class="modal-bar-fill"></div></div>
+        <div class="modal-ctrl">
+          <button class="play-btn" onclick="togglePlay()"><span id="play-icon">⏸</span> <span id="play-text">Pausar</span></button>
+          <span id="modal-dur"></span>
+        </div>
+      </div>
+    </div>
+    <div class="modal-info">
+      <div class="modal-badge">♥ <span id="modal-date"></span></div>
+      <h2 class="modal-title" id="modal-title"></h2>
+      <p class="modal-desc" id="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- MÚSICA -->
+<div class="music-controls" id="music-controls">
+  <div class="music-panel" id="music-panel">
+    <p class="music-panel-title">♪ Trilha sonora</p>
+    <div class="music-song-list" id="music-song-list"></div>
+    <div class="music-panel-controls">
+      <button class="music-pp-btn" id="music-pp-btn" onclick="toggleMusicPlay()">▶</button>
+      <input type="range" class="vol-slider" id="vol-slider" min="0" max="100" value="40" oninput="setVolume(this.value)">
+    </div>
+  </div>
+  <button class="music-toggle-btn" id="music-toggle-btn" onclick="toggleMusicPanel()" title="Música">🎵</button>
+</div>
+
+<!-- CTA -->
+<div class="cta-venda" id="cta-venda"><a id="cta-link" href="" target="_blank"></a></div>
+
+<audio id="bg-music" loop></audio>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
