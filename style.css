@@ -465,14 +465,16 @@ header.scrolled{
     position:relative;
 }
 
-.carousel-track{
-    display:flex;
-    gap:.85rem;
-    overflow-x:auto;
-    padding:.5rem clamp(1rem,4vw,3rem) 1rem;
-    scroll-snap-type:x mandatory;
-    scrollbar-width:none;
-    scroll-behavior:smooth;
+.carousel-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: auto;
+  padding: .5rem clamp(1rem, 4vw, 3rem) 1rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 .carousel-track::-webkit-scrollbar{
@@ -511,7 +513,8 @@ header.scrolled{
 
 .card{
     position:relative;
-    width:clamp(220px,40vw,310px);
+    width: calc(25% - 1.5rem);
+    min-width: 200px;
     aspect-ratio:16/9;
     flex-shrink:0;
     scroll-snap-align:start;

@@ -12,24 +12,23 @@ const CORES = {
    💑 2. NOMES DO CASAL
 =========================================================== */
 const CASAL = {
-  nome1: 'Luiz',
-  nome2: 'Maria',
-  logo:  '♥ L&M',
+  nome1: 'Sofia',
+  nome2: 'Marcelo',
+  logo:  '♥ M&S',
 };
 
 /* ===========================================================
    🖼️ 3. FOTOS DOS PERFIS
 =========================================================== */
 const FOTOS_PERFIL = {
-  foto1: 'https://i.ibb.co/0SMkVYk/Edit-Luiz.png',
-  foto2: 'https://i.ibb.co/WvypH90G/Edit-Maria.png',
+  foto1: 'https://i.ibb.co/YTW43kBS/Gemini-Generated-Image-lxltuqlxltuqlxlt.png',
 };
 
 /* ===========================================================
    🎬 4. HERO (banner principal)
 =========================================================== */
 const HERO = {
-  foto:      'https://i.ibb.co/67zYLwRP/413ec321-8f7b-481d-858b-6d96b6842f93.png',
+  foto:      'https://i.ibb.co/VYhJMrD7/Chat-GPT-Image-4-de-jun-de-2026-13-15-26.png',
   badge:     '♥ Original · Para sempre',
   titulo:    'Nossa História',
   descricao: 'A série mais linda e apaixonante do catálogo, que já renovou para infinitas temporadas. Dividindo os mesmos episódios cotidianos, as maiores risadas e a certeza de que a nossa melhor fase é sempre a que estamos vivendo agora.',
@@ -40,7 +39,7 @@ const HERO = {
 =========================================================== */
 const CONTADOR = {
   dataInicio:  '2026-02-13',
-  textoRodape: '14 de março · para sempre',
+  textoRodape: '13 de fevereiro · para sempre',
 };
 
 /* ===========================================================
@@ -49,50 +48,34 @@ const CONTADOR = {
 const MOMENTOS = [
   {
     titulo: 'Nosso Primeiro Encontro',
-    desc:   'Quem diria que aquele frio na barriga daria início à nossa melhor história? Entre um sorriso tímido no rosto e aquela foto impressa na cabine, a certeza logo no primeiro dia de que esse seria o nosso episódio favorito.',
+    desc:   'Nossa primeira vez saindo juntos como um casal, lembro de cada detalhe daquele dia, desde o nervosismo que senti quando te esperava na frente do shopping, da sua cara de surpresa e vergonha quando te entreguei o buquê e da felicidade que senti por saber que estava com o amor da minha vida.',
     data:   'Episódio 01',
     dur:    'O início',
-    img:    'https://i.ibb.co/60tVP9mz/Edit-Primeiro-Encontro-evento1.png',
+    img:    'https://i.ibb.co/MkYQdgzb/Chat-GPT-Image-4-de-jun-de-2026-13-10-27.png',
     video:  '',
   },
   {
-    titulo: 'O Começo de Nós',
-    desc:   'O dia em que o nosso carinho ganhou um novo sentido. Entre esse registro bobo no espelho e o primeiro beijo, terminamos a noite segurando firmemente a mão um do outro em frente à igreja, com a certeza de que fomos abençoados desde o início.',
+    titulo: 'Primeira vez na sua casa',
+    desc:   'A primeira vez que fui a sua casa foi numa véspera de Páscoa, eu fui muito bem tratado pela sua família e me senti automaticamente aceito pelos seus pais, você estava muito linda como sempre, foi um dias mais felizes da minha vida.',
     data:   'Episódio 02',
     dur:    'Inesquecível',
-    img:    'https://i.ibb.co/KctKp24b/Edit-Primeiro-Beijo.png',
+    img:    'https://i.ibb.co/DPfZfvB7/Chat-GPT-Image-4-de-jun-de-2026-13-15-26.png',
     video:  '',
   },
   {
-    titulo: 'Bosque Maia',
-    desc:   'Nada supera a calmaria de uma tarde de sol ao seu lado. Entre passos lentos sob as árvores do Bosque Maia e uma pausa para dividir um sorvete, descobri que os momentos mais simples ganham uma cor mágica quando você está por perto.',
+    titulo: 'Encontro no parque',
+    desc:   'Primeira vez que fomos a um parque juntos, eu me lembro de cada detalhe seu, desde o seu sorrisinho lindo até o seu vestido vermelho que usava, passamos umas duas horas sentados no banco do parque apenas aproveitando a natureza e curtindo a presença um do outro. Nesse dia eu senti uma paz tão grande e profunda ao seu lado, paz essa que me fez ter a completa certeza de que eu desejo passar os resto da minha vida ao seu lado.',
     data:   'Episódio 03',
     dur:    'Tarde perfeita',
-    img:    'https://i.ibb.co/5XRgGS15/Edit-Comendo-Sorvete.png',
+    img:    'https://i.ibb.co/1GJZ6rS4/Chat-GPT-Image-4-de-jun-de-2026-13-12-47.png',
     video:  '',
   },
   {
-    titulo: 'Parceiros de Treino (e de Vida)',
-    desc:   'Quem diria que até a rotina de treinar ganharia um novo significado ao seu lado? Entre uma selfie descontraída mostrando o muque e um beijo roubado no meio do treino, é o aconchego desse abraço — o nosso favorito — que me dá forças e mostra que a nossa parceria vai muito além da academia.',
+    titulo: 'O primeiro wallpaper que você me fez',
+    desc:   'Esse foi o primeiro wallpaper que você me fez, quando você me mandou eu me senti muito especial e muito grato por ter você na minha vida, pois assim sempre que eu abrisse o meu celular eu poderia te ver e lembrar mais um pouco o quanto eu te amo.',
     data:   'Episódio 04',
     dur:    'Força & Amor',
-    img:    'https://i.ibb.co/XxGpPgp9/Edit-Melhor-Foto.png',
-    video:  '',
-  },
-  {
-    titulo: 'Onde o Tempo Para',
-    desc:   'O nosso cantinho escondido no mundo, onde o tempo parecia parar depois de cada passeio. Este capítulo é a prova de que, além de namorados, somos melhores amigos que adoram fazer careta, dar risada de tudo e terminar o dia com a certeza de que o nosso melhor lugar é sempre o abraço um do outro.',
-    data:   'Episódio 05',
-    dur:    'Só nosso',
-    img:    'https://i.ibb.co/6RCfsmgG/Edit-Foto-Para-Ficar-De-Casal.png',
-    video:  '',
-  },
-  {
-    titulo: 'Feito à Mão',
-    desc:   'Abrir as portas da minha casa e ver você fazendo parte da minha rotina é a melhor sensação do mundo. Seja inventando trends com massinhas para moldar o nosso amor ou dividindo o seu prato favorito de mãos dadas, passar esses momentos com você me faz ter certeza de que o meu lugar favorito no mundo é onde você estiver.',
-    data:   'Episódio 06',
-    dur:    'Em casa',
-    img:    'https://i.ibb.co/hJNC47Yj/Edit-Trend-Casal.png',
+    img:    'https://i.ibb.co/DPSTjMqb/Chat-GPT-Image-4-de-jun-de-2026-13-18-06.png',
     video:  '',
   },
 ];
@@ -102,20 +85,20 @@ const MOMENTOS = [
 =========================================================== */
 const TIMELINE = [
   {
-    frase: 'Muito antes de imaginarmos o nosso futuro, o destino já rascunhava o primeiro capítulo. Bastou um único encontro e o flash de uma cabine de fotos para dar a largada na história mais bonita, real e apaixonante das nossas vidas.',
-    img:   'https://i.ibb.co/v4sNNN9c/foto-Cabine.jpg',
+    frase: 'Os olhos pelos quais me apaixonei.',
+    img:   'https://i.ibb.co/KJG8N0N/Chat-GPT-Image-6-de-jun-de-2026-01-04-40.png',
   },
   {
-    frase: 'A calmaria de encontrar o meu porto seguro em você. Entre o primeiro beijo e a paz de segurar a sua mão em frente ao altar, a certeza de que os nossos caminhos foram desenhados e abençoados para caminharem juntos.',
-    img:   'https://i.ibb.co/6RLRhfWk/Edit-Missa-De-Cinzas.png',
+    frase: 'O rostinho no qual eu perco horas apenas admirando.',
+    img:   'https://i.ibb.co/9kYvyxr6/Chat-GPT-Image-4-de-jun-de-2026-13-41-24.png',
   },
   {
-    frase: 'A calmaria de uma tarde sob o céu aberto e as árvores do parque. Com você, descobri que os momentos mais simples ganham uma cor mágica e que a paz que eu tanto procurava estava no encaixe perfeito da sua mão na minha.',
-    img:   'https://i.ibb.co/Xx0TLWc7/Edit-Primeira-Vez-De-Casal-Bosque.png',
+    frase: 'A coisa que eu mais gosto de fazer quando estamos juntos, te amar.',
+    img:   'https://i.ibb.co/rRVq9RdY/Chat-GPT-Image-6-de-jun-de-2026-01-05-21.png',
   },
   {
-    frase: 'Onde o mundo inteiro silencia e só o que importa é a gente. Encontrar em você o meu porto seguro, o meu sorriso mais sincero e a certeza de que cada detalhe da nossa rotina ganha um brilho único quando estamos assim, bem pertinho.',
-    img:   'https://i.ibb.co/prZwwCQ9/Edit-Beijo.jpg',
+    frase: 'A gatinha mais bela de todas.',
+    img:   'https://i.ibb.co/13Q7wVv/Chat-GPT-Image-6-de-jun-de-2026-01-04-53.png',
   },
 ];
 
@@ -125,7 +108,7 @@ const TIMELINE = [
 const FINAL = {
   frase:   'Você é a minha',
   fraseEm: 'história favorita.',
-  rodape:  'Luiz & Maria · Para sempre',
+  rodape:  'Sofia & Marcelo · Para sempre',
   footer:  'Uma produção original · Com todo o meu amor',
 };
 
@@ -166,7 +149,6 @@ function applyConfig(){
   document.getElementById('logo-browse').textContent  = CASAL.logo;
 
   setupPerfil(0, CASAL.nome1, FOTOS_PERFIL.foto1);
-  setupPerfil(1, CASAL.nome2, FOTOS_PERFIL.foto2);
 
   var hi = document.getElementById('hero-img');
   hi.src = HERO.foto; hi.alt = CASAL.nome1+' & '+CASAL.nome2;
@@ -250,7 +232,7 @@ function buildTimeline(){
 }
 
 /* ═══ NAVEGAÇÃO ═══ */
-var nomes=[CASAL.nome1,CASAL.nome2], fotos=[FOTOS_PERFIL.foto1,FOTOS_PERFIL.foto2];
+var nomes=[CASAL.nome1], fotos=[FOTOS_PERFIL.foto1];
 
 function enterProfile(idx){
   var pp=document.getElementById('profile-page');
