@@ -94,7 +94,7 @@ const TIMELINE = [
   },
   {
     frase: 'A coisa que eu mais gosto de fazer quando estamos juntos, te amar.',
-    img:   'https://i.ibb.co/rRVq9RdY/Chat-GPT-Image-6-de-jun-de-2026-01-05-21.png',
+    img:   'https://i.ibb.co/9mRYM4Yh/foto-Beijo-Pescoco.png',
   },
   {
     frase: 'A gatinha mais bela de todas.',
@@ -118,7 +118,7 @@ const FINAL = {
 const MUSICAS = [
   {
     nome: 'Nossa Música',
-    url:  'girl in red - we fell in love in october - girl in red (youtube).mp3',
+    url:  'Marina Sena - Numa Ilha (Clipe Oficial) - (64 Kbps).mp3',
   },
 ];
 
